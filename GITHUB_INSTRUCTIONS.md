@@ -1,33 +1,18 @@
 # Instructions for Pushing to GitHub
 
-Follow these steps to push your local Git repository to GitHub:
+Your local Git repository is already connected to GitHub at:
+https://github.com/elreynolds88/CMS.git
 
-## 1. Create a new repository on GitHub
+## Push your local changes to GitHub
 
-1. Go to [GitHub](https://github.com/) and sign in to your account
-2. Click on the "+" icon in the top right corner and select "New repository"
-3. Enter a name for your repository
-4. Optionally add a description
-5. Choose whether the repository should be public or private
-6. Do NOT initialize the repository with a README, .gitignore, or license (since you already have these files locally)
-7. Click "Create repository"
-
-## 2. Connect your local repository to GitHub
-
-After creating the repository, GitHub will show you commands to connect your existing repository. Use the following commands:
+Since your repository is already connected to GitHub, you just need to push your local commits:
 
 ```bash
-# Add the GitHub repository as a remote named "origin"
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
-
-# Verify that the remote was added correctly
-git remote -v
-
-# Push your local repository to GitHub
-git push -u origin main
+# Push your local commits to GitHub
+git push origin main
 ```
 
-Replace `YOUR-USERNAME` with your GitHub username and `YOUR-REPOSITORY-NAME` with the name of your GitHub repository.
+If you're prompted for credentials, you'll need to provide your GitHub username and either your password or a personal access token (recommended).
 
 ## 3. Verify the push
 

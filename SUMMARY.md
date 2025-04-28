@@ -12,9 +12,8 @@
 ## What you need to do next:
 
 1. Follow the steps in GITHUB_INSTRUCTIONS.md to:
-   - Create a new repository on GitHub
-   - Connect your local repository to GitHub
-   - Push your local commits to GitHub
+   - Push your local commits to the existing GitHub repository at:
+     https://github.com/elreynolds88/CMS.git
 
 ## Repository Status:
 
